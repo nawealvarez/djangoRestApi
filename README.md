@@ -42,7 +42,7 @@ Obtener todos las personas juridicas:
 	curl -H 'Accept: application/json; indent=4' -u admin:admin -X GET http://localhost:8000/juridicas/
 ~~~~
 
-Obtener la persona fisica con id = 2:
+Obtener la persona juridica con id = 2:
 ~~~~
 	curl -H 'Accept: application/json; indent=4' -u admin:admin -X GET http://localhost:8000/juridicas/2/
 ~~~~
